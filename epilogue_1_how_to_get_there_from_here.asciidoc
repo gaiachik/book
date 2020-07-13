@@ -786,7 +786,7 @@ run Event Store as our messaging tool, but we've had experience with RabbitMQ an
 Amazon EventBridge.
 +
 Tyler Treat has some excellent blog posts on his site _bravenewgeek.com_; you
-should read at least read https://oreil.ly/pcstD["You Cannot Have Exactly-Once Delivery"]
+should at least read https://oreil.ly/pcstD["You Cannot Have Exactly-Once Delivery"]
 and https://oreil.ly/j8bmF["What You Want Is What You Don’t: Understanding Trade-Offs in Distributed Messaging"].
 
 We explicitly choose small, focused transactions that can fail independently::
